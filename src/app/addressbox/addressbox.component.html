@@ -1,0 +1,22 @@
+
+<form class="example-form">
+
+  <mat-form-field class="example-full-width">
+    <input
+      type="text"
+      name="address"
+      placeholder="Address"
+      matInput
+      [matAutocomplete]="auto"
+      [(ngModel)]="address"
+      (ngModelChange)="onChange($event)"
+    />
+  </mat-form-field>
+
+    <mat-autocomplete #auto="matAutocomplete">
+    <mat-option *ngFor="let address of addressOptions" [value]="address.text">
+      {{ address.text }}
+    </mat-option>
+  </mat-autocomplete>
+
+</form>
