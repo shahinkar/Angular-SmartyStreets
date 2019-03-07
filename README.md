@@ -1,4 +1,8 @@
-# NgApp
+# Angular-SmartyStreets
+
+Address autocomplete in Angular 7 using Smartstreet API.
+
+For more details please visit https://dgexp.wordpress.com/2019/03/07/creating-autocomplete-addresses-in-angular-by-using-smartystreet-apis/ 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.1.
 
