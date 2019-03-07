@@ -1,4 +1,4 @@
-# Angular-SmartyStreets
+# Angular SmartyStreets
 
 Address autocomplete in Angular 7 using Smartstreet API.
 
