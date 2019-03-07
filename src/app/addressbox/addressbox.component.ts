@@ -7,7 +7,7 @@ import { CommonService } from '../core/common.service';
 })
 export class AddressboxComponent implements OnInit {
 
-  addressOptions = <any>[]; // dsdd
+  addressOptions = <any>[];
   address: string;
 
   constructor(private _commonService: CommonService) { }
